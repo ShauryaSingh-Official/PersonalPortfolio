@@ -10,13 +10,13 @@
 - I uses it as my digital Resume/CV .
 - Also allows users to download my RESUME or CV ( as PDF Format ).
 - Anyone can access this portfolio from any remote location .
-using link [Visit SouravKumar's Portfolio](http://google.com "Sourav Kumar's Personal Portfolio") .
+using link [Visit SouravKumar's Portfolio](https://github.com/ShauryaSingh-Official/PersonalPortfolio/settings/pages "Sourav Kumar's Personal Portfolio") .
 
 
 
 ## 💻 &nbsp;Run Website ( Experience the UI )
 
-Click here -  [Visit SouravKumar's Portfolio]([http://google.com](https://github.com/ShauryaSingh-Official/PersonalPortfolio/settings/pages) "Sourav Kumar's Personal Portfolio") and know more about me.  
+Click here -  [Visit SouravKumar's Portfolio](https://github.com/ShauryaSingh-Official/PersonalPortfolio/settings/pages "Sourav Kumar's Personal Portfolio") and know more about me.  
 OR  
 You can access the files from github to your own system repository and then can run it on Chrome Browser (with LiveServer or other method) .
 

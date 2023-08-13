@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-
-/* #######################################################     UTILITY CLASSES     ################################################################# */
+/* #######################################################     UTILITY CLASSES  and  Common Styling    ################################################################# */
 
 .container{
     max-width: 1200px;
@@ -15,15 +14,11 @@
 }
 
 
-
-
-
-
-
 header .navbar .logo a{
     color: aliceblue;
     text-decoration: none;
 }
+
 .main-menu-item{
     list-style: none;
 }
@@ -40,7 +35,6 @@ header .navbar .logo a{
     color: rgba(98, 235, 238,0.6);
     transform: scale(2);
 }
-
  
 .navbar{
     position: fixed;
@@ -69,7 +63,6 @@ header .navbar .logo a{
 .navbar .logo a{
     font-size: 1.6rem;
     font-weight: 700;
-
 }
 
 .navbar .main-menu{
@@ -96,6 +89,7 @@ header .navbar .logo a{
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
+
 .navbar .btn-cv:hover,.navbar .btn-cv:visited{
     scale: 1.05;
     background-color: rgba(25, 184, 190,0.8);
@@ -143,11 +137,10 @@ header .dropdown-menu .btn-cv{
     
 }
 
-
 header .dropdown-menu li:hover,header .dropdown-menu li:visited{
-    background-color: rgba(210, 228, 235, 0.593)
-    
+    background-color: rgba(210, 228, 235, 0.593)    
 }
+
 header .dropdown-menu li .btn-cv:hover,header .dropdown-menu li .btn-cv:visited{
     background-color: rgba(25, 184, 190,0.8);
 }
@@ -157,11 +150,7 @@ header .dropdown-menu li a{
     text-decoration: none;
 }
 
-
-
 /* ###################################        HOME        ############################################ */
-
-
 
 #home{
     height: 100vh;
@@ -172,7 +161,6 @@ header .dropdown-menu li a{
     color: aliceblue;
     margin: 1rem;
 }
-
 
 #home .home-text>h3{
     font-size: 1.6rem;
@@ -212,10 +200,6 @@ header .dropdown-menu li a{
     box-shadow: 0 0 20px 0 rgba(98, 235, 238,0.6);
 }
 
-
-
-
-
 .btn{
     background-color: rgba(98, 235, 238,0.6);
     color: #fff;
@@ -226,6 +210,7 @@ header .dropdown-menu li a{
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
+
 .btn:hover,.btn:visited{
     scale: 1.05;
     background-color: rgba(25, 184, 190,0.8);
@@ -247,18 +232,6 @@ header .navbar .btn-cv:hover{
     background-color: rgba(98, 235, 238,0.6);
     box-shadow: 0px 0px 30px 0px rgba(25, 184, 190,0.9);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ##############################   VIDEO BACKGROUND , AND  maintain video aspect ratio (Responsive)   ############################## */
 header .box{
@@ -283,23 +256,17 @@ header .box video{
 
 }
 
-
-
 header .darknavbar{
      background: #2b5876;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     box-shadow: 0 3px 10px rgba(0,0,0,0.15);
 }
-
 
 /* ###################################################                  MORE ABOUT         ###################################################3 */
 
 #more-about{
-
     background-color: #fff;
-    
 }
 
 .items{
@@ -309,6 +276,7 @@ header .darknavbar{
 	align-items: center;
 	text-align: center;
 }
+
 .sub-box{
     margin: 2rem auto;
     padding: 45px;
@@ -316,33 +284,31 @@ header .darknavbar{
 	cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
+
 .sub-img img{
 	max-width: 100%;
 	width: 60px;
 	height: auto;
 	margin-bottom: 20px;
 }
+
 .sub-box h3{
 	margin-bottom: 20px;
 	font-size: 24px;
 	font-weight: 500;
 }
+
 .sub-box p{
 	color: #a09dab;
 	line-height: 29px;
 }
+
 .sub-box:hover{
 	background: #ffffff;
-	/* box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%); */
 	box-shadow: 18px 0px 87px 0px rgba(10 ,15 ,70, 0.7);
 	border-radius: 12px;
-	/* transform: rotate(4.80deg) ; */
-    /* transform: skewX(5deg); */
-    /* transform: skewY(5deg); */
-    transform: skew(2.5deg,5.5deg);
-
+    	transform: skew(0.5deg,2.5deg);
 }
-
 
 /* #########################################################################################        About       ############################################################################################### */
 
@@ -350,24 +316,28 @@ header .darknavbar{
     padding: 50px 0px;
     background: #f5f5f7;
 }
+
 .about-wrapper{
     display: flex;
     flex-wrap: wrap;
 }
+
 #about h1{
     font-size: 2.2rem;
     margin-bottom: 1rem;
     color: #555;
 }
+
 #about h4{
     color: rgb(1, 199, 202);
-    margin-bottom: 0.5rem;
-    
+    margin-bottom: 0.5rem;    
 }
+
 #about h2{
     color: rgb(1, 199, 202);
     margin-bottom: 0.5rem; 
 }
+
 #about .about-text p{
     margin-bottom: 2rem;
 }
@@ -388,7 +358,6 @@ header .darknavbar{
     flex: 1 1 400px;
     padding: 30px;
     margin: auto;
-    /* flex box me vertically bhi center ho jata hai in case of flexbox */
     transform: translateX(-150%);
     animation: about-text-animation 2s ease-in-out forwards;
 }
@@ -405,21 +374,18 @@ header .darknavbar{
     max-width: 100%;
     margin: auto;
     object-fit: cover;
-    /* image complete aye or aspet ratio maintain rahe */
     object-position:center;
 }
 
-
 /* ###################################################                 SKILLS       #######################################################3 */
-
 
 .skill-section{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    max-width: 1200px;
-    
+    max-width: 1200px;    
 }
+
 .skills .cont{
     width : 175px;
     text-align: center;
@@ -428,32 +394,31 @@ header .darknavbar{
     padding-top: 1.20%;
     transition: all 0.3s ease-in-out;
 }
+
 .skills .cont:hover{
     transform: scale(1.2);
     box-shadow: 0px 0px 10px 0px rgba(98, 235, 238,0.6);
 }
+
 .skills h1{
     color: #555;
     font-weight: 700;
     font-size: 2rem;
     margin: 3rem 0;
 }
+
 .skills i{
     font-size: 4rem;
     margin-bottom: 0.5rem;
 }
+
 .skills p{
     text-decoration: none;
     color: #000;
     padding-top: 0.5rem;
 }
 
-
-
-
-
 /* ###################################################                 Projects       #######################################################3 */
-
 
 .project{
     display: flex;
@@ -461,6 +426,7 @@ header .darknavbar{
     gap: 2rem;
     max-width: 1200px;
 }
+
 #project-block h1{
     font-size: 2rem;
     padding-left: 8rem ;
@@ -472,11 +438,11 @@ header .darknavbar{
     /* align-content: center; */
     text-align: center;
 }
+
 .project-box{
     max-width: 45%;
     min-width: 350px;
 }
-
 
 .project-box img{
     display: block;
@@ -491,6 +457,7 @@ header .darknavbar{
     margin: 0 1rem;
     position: relative;
 }
+
 .img-content{
     position: absolute;
     top: 70%;
@@ -499,18 +466,20 @@ header .darknavbar{
     opacity: 0;
     z-index: 2;
     text-align: center;
-
     transition: all 0.3s ease-in-out 0.1s;
 }
+
 .img-content h3{
     color: #fff;
     font-size: 1rem;
     margin: 1rem;
 }
+
 .img-content a{
     font-size: 0.8rem;
     text-decoration: none;
 }
+
 .img-container::after{
     content: "";
     position: absolute;
@@ -522,11 +491,11 @@ header .darknavbar{
     background: rgba(0, 0, 0, 0.78);
     opacity: 0;
     z-index: 1;
-
     transform: scaleY(0);
     transform-origin: 100% 100%;
     transition: all 0.3s ease-in-out;
 }
+
 .img-container:hover::after{
     transform: scaleY(1);
     opacity: 1;
@@ -536,16 +505,20 @@ header .darknavbar{
  top: 40%; 
  opacity: 1;  
 }
+
 /* ###################################################                 Contact       #######################################################3 */
+
 #contact{
     padding: 50px 0px;
     /* background: #f5f5f7; */
     background: #eee;
 }
+
 .contact-wrapper{
     display: flex;
     flex-wrap: wrap;
 }
+
 #contact h1{
     display: inline-block;
     font-size: 2rem;
@@ -555,11 +528,11 @@ header .darknavbar{
     margin-bottom: 3rem;
     color: #555;
 }
+
 #contact h3{
     color: rgb(1, 199, 202);
     margin-bottom: 0.5rem;
-    padding: 2rem 0;
-    
+    padding: 2rem 0;    
 }
 
 #contact .contact-text p{
@@ -569,7 +542,6 @@ header .darknavbar{
 .contact-image{
     flex: 1 1 400px;
     padding: 30px;
-    /* transform: translateX(150%); */
 }
 
 .contact-text{
@@ -578,6 +550,7 @@ header .darknavbar{
     padding-top: 0;
     margin: auto;
 }
+
 .contact-text p a{
     display: block;
     text-decoration: none;
@@ -592,7 +565,6 @@ header .darknavbar{
     max-width: 100%;
     margin: auto;
     object-fit: cover;
-    /* image complete aye or aspet ratio maintain rahe */
     object-position:center;
 }
 
@@ -601,17 +573,15 @@ header .darknavbar{
     background: #00d2ff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
 }
-.faq-section
-{
+
+.faq-section{
     height: 300px;
     padding: 1rem;
     margin-bottom:0 ;
     background: #00d2ff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
 .faq-section h2{
@@ -620,11 +590,12 @@ header .darknavbar{
     padding-top: 1rem;
 
 }
+
 details{
     width: 100%;
-    margin-bottom: 0.5rem;
-    
+    margin-bottom: 0.5rem;    
 }
+
 details summary{
     padding: 0.6rem;
     width: 100%;
@@ -640,26 +611,25 @@ details p {
     padding: 0.8rem;
     margin: 0;
     margin-left: 2.8%;
-
 }
 
-.faq-section 
-
-details>p >a{
+.faq-section details>p >a{
     text-decoration: none;
 }
 
   /* ###################################################                 FOOTER       #######################################################3 */
-  footer{
-    background: #2b5876;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- height: 80px;
- display: flex;
- flex-wrap: wrap;
- align-items: center;
- justify-content: center;
-  }
+
+footer{
+    	background: #2b5876;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 	height: 80px;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	align-items: center;
+ 	justify-content: center;
+}
+	
   footer section{
     font-weight: 700;
   }
@@ -679,6 +649,7 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
     align-items: center;
     justify-content: space-evenly;
   }
+	
   /* ###################################################                 MEDIA QUERIES       #######################################################3 */
     
 
@@ -687,8 +658,8 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
         transform: translate(-5%,-5%);
     }
 }
+	
 @media(max-width:979px){
-
     .navbar .main-menu,
     .navbar .btn-cv{
         display: none;
@@ -724,21 +695,21 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
     .skills .cont{
         box-shadow: 0px 0px 10px 0px rgba(98, 235, 238,0.6);
     }
-
 }
 
 @media(max-width:576px){
     .navbar .logo a{
         font-size: 1.4rem;
     }
+	
     .dropdown-menu{
         left: 3%;
         right: 3%;
         /* right: 3%; */
         display:block;
-        min-width: 85%;
-        
+        min-width: 85%;   
     }   
+	
     .box{
         height: 600px;
         object-position: center;
@@ -747,16 +718,19 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
     .home-text{
         text-align: center;
     }
+	
     .home-text .social {
         min-width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
+	
     .home-text .btn{
         display: inline-block;
         margin: 0.5rem 20%;
     }
+	
     .contact-text{
         font-size: 0.8rem;
     }
